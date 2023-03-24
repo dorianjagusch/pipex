@@ -6,7 +6,7 @@
 /*   By: djagusch <djagusch@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 14:37:54 by djagusch          #+#    #+#             */
-/*   Updated: 2023/03/24 08:35:49 by djagusch         ###   ########.fr       */
+/*   Updated: 2023/03/24 08:43:46 by djagusch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,6 @@ void	ft_error(int error, char *str)
 			ft_printf_fd("pipex: too few arguments\n", STDERR_FILENO);
 		else if (error == BIGARG)
 			ft_printf_fd("pipex: too many arguments\n", STDERR_FILENO);
-		system("leaks pipex");
 		exit(error);
 	}
 }
