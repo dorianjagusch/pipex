@@ -69,5 +69,6 @@ int	main(int ac, char **av, char *envp[])
 	close_fds(cmds, cmds->n_cmd);
 	ft_wait(cmds, pids);
 	free_cmds(&cmds, &pids);
+	system("leaks pipex");
 	return (0);
 }

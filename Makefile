@@ -98,6 +98,6 @@ fclean : clean
 	@$(RM) $(NAME) pipex_bonus
 	@echo "$(COLOUR_RED) $(NAME) (bonus) removed$(COLOUR_END)"
 
-re: fclean $(NAME)
+re: fclean $(NAME) bonus
 
 .PHONY: all clean fclean re bonus
