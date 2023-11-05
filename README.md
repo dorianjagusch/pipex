@@ -76,7 +76,7 @@ Pipex will execute cmd1 with file1 as input and redirect its output to cmd2, and
   or
     ```sh
     ./pipex file1 cmd1 cmd2 cmd3 .... cmdn file2
-     ```
+    ```
 
 ## How It Works
 
